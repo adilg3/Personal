@@ -1,0 +1,32 @@
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "xprotocol",
+        "enableSsl": "Disabled",
+        "ssl": {}
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 33060,
+      "driver": "MySQL",
+      "name": "MySQL Local",
+      "database": "new_app",
+      "username": "root",
+      "password": "Adil2003"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 1433,
+      "driver": "TiDB",
+      "name": "SQL Server Local",
+      "database": "testdb",
+      "username": "sa"
+    }
+  ]
+}
